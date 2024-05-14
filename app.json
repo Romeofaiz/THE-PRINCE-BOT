@@ -3,7 +3,7 @@
   "description": "Prince MD A WhatsApp User BOT",
   "logo": "https://telegra.ph/file/d9bcfd1ae673ebd58bd3e.jpg",
   "keywords": ["java", "bot", "whatsapp-bot", "whatsapp-automation"],
-  "repository": "https://github.com/PRINCE-GDS/THE-PRINCE-BOT",
+  "repository": "https://github.com/PRINCE-GDS/MR-PRINCE-BOT",
   
   "stack": "container",
   "env": {
@@ -36,16 +36,21 @@
       "description": "bot will forward deleted messages if you make it true",
       "required": false,
       "value": "false"
+      },
+    "AUTOREAD": {
+      "description": "make it true if you want bot to auto check messages",
+      "required": false,
+      "value": "false"
        },
-    "statusview": {
+    "STATUSVIEW": {
       "description": "make it true if you want bot to view status",
       "required": false,
-      "value": ""
+      "value": "false"
     },
-    "autoRead": {
-      "description": "make it true if you want bot to read messages",
+    "AutoReaction": {
+      "description": "make it true if you want bot to react on chats",
       "required": false,
-      "value": ""
+      "value": "false"
     },
     "SESSION_ID": {
       "description": "your session id",
